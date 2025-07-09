@@ -1,6 +1,6 @@
 # 🎬 IMDB Movie Review Sentiment Classifier
 
-This project is a **deep learning-based sentiment analysis app** built with **TensorFlow** and deployed using **Streamlit**. It classifies movie reviews from the IMDB dataset as either **Positive** or **Negative** using a trained **SimpleRNN model**.
+This project is a **deep learning-rnn-based sentiment analysis app** built with **TensorFlow** and deployed using **Streamlit**. It classifies movie reviews from the IMDB dataset as either **Positive** or **Negative** using a trained **SimpleRNN model**.
 
 ---
 
@@ -21,14 +21,15 @@ This project is a **deep learning-based sentiment analysis app** built with **Te
 ### 1. Clone the repository:
    ```bash
    git clone https://github.com/iam-salma/rnn-imdb-review-sentiment-classifier.git
-   cd imdb-rnn-sentiment
-   ````
+   cd rnn-imdb-review-sentiment-classifier
+   ```
+
 ### 2. Install dependencies:
-```bash
+   ```bash
    pip install -r requirements.txt
-   ````
+   ```
 
 ### 3. Run the app:
-```bash
+   ```bash
    streamlit run main.py
-   ````
+   ```
